@@ -8,4 +8,5 @@ print('O valor digitado e uma letra? ',n.isalpha())
 print('O valor digitado e um numero e letra?',n.isalnum())
 print('O valor digitado esta somente com letras maiusculas?',n.isupper())
 print('O valor digitado esta somente com letras minusculas? ',n.islower())
+print('O valor digitado e composto por espacos? ',n.isspace())
 
