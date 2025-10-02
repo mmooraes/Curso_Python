@@ -4,6 +4,8 @@
 n1 = float(input('Digite a nota 1: '))
 n2 = float(input('Digite a nota 2: '))
 m = (n1+n2)/2
-print('A media do aluno e: {}'.format(m))
-if (m >= 5): print('Parabens! Sua nota e {} Voce foi aprovado'.format(m))
-else: (m <= 5); print('Que pena, sua nota foi {}. Voce foi reprovado'.format(m))
+print(f'A média do aluno é: {m}') #o F pode ser usado para adicionar a variavel no texto.
+if (m >= 5): 
+    print('Parabéns, sua nota é {} Você foi aprovado!'.format(m))
+else: 
+    print('Que pena, sua nota foi {}. Você foi reprovado!'.format(m))
