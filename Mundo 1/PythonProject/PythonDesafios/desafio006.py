@@ -8,4 +8,8 @@ rq = n1**(1/2) #vai ensinar na proxima aula (mas consegui resolver usando um flo
 
 # usando apenas 1 varivel (com o objetivo apenas para esse programa, caso precise guardar os numero... precisa das variaveis)
 
-print('O dobro de {} é {} \nO Triplo de {} é {} \nA raiz quadrada de {} é {}'.format(n1, (n1*2), n1, (n1*3), n1, (n1**(1/2))))
+#Opção01 - 
+#print('O dobro de {} é {} \nO Triplo de {} é {} \nA raiz quadrada de {} é {}'.format(n1, (n1*2), n1, (n1*3), n1, (n1**(1/2))))
+
+#Opção01
+print('O dobro de {} é {} \nO Triplo de {} é {} \nA raiz quadrada de {} é {}'.format(n1, (n1*2), n1, (n1*3), n1, pow(n1,(1/2))))
