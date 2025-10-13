@@ -1,4 +1,5 @@
-#Aula 15: faca um programa que leia algo pelo teclado e mostre na tela o 
+#Aula Tratando dados e fazendo contas:
+# faca um programa que leia algo pelo teclado e mostre na tela o 
 # seu tipo premitivo e todas as informacoes possivel sobre ele
 
 n = input('Digite algo: ')

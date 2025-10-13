@@ -1,4 +1,4 @@
-"""Aula 15:
+"""Aula Tratando dados e fazendo contas:
 Escreva um programa que converta uma temperatura digitada em °C e converta para °F
 """
 c = float(input('Informe a temperatura em °C: '))

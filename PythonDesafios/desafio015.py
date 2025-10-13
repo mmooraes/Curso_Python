@@ -1,4 +1,4 @@
-"""Aula 15:
+"""Aula Tratando dados e fazendo contas:
 Escreve um programa que pergunte a quantidade de Km percorridos por um carro alugado
 e a quantidade de dias pelo quais foi alugado. Calcule o preço a pagar, sabendo que o carro custo 
 R$60,00 por dia e R$0,15 por km rodado

@@ -1,4 +1,4 @@
-# Aula 15: Crie um algoritimo que leia o seu dobro, triplo e a raiz quadrada
+#Aula Tratando dados e fazendo contas: Crie um algoritimo que leia o seu dobro, triplo e a raiz quadrada
 
 n1 = int(input('Digite um numero: '))
 d = n1 * 2

@@ -1,4 +1,4 @@
-#Aula 15: faça um algoritimo que leia o preço de um produto
+#Aula Tratando dados e fazendo contas: faça um algoritimo que leia o preço de um produto
 #e mostre seu novo preço, com 5% de desconto
 
 precoReal = float(input('Qual o Valor do produro? R$ '))

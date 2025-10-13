@@ -1,4 +1,5 @@
-# Aula 15 Crie um programa que leia dois numeros e mostre a soma entre eles
+# Aula Tratando dados e fazendo contas:
+# Crie um programa que leia dois numeros e mostre a soma entre eles
 n1 = int(input('Digite um numero: '))
 n2 = int(input('Digite outro numero: '))
 s = n1 + n2
