@@ -1,4 +1,4 @@
-#Faca um programa que leia um numero inteiro e 
+#Aula 15: 07Faca um programa que leia um numero inteiro e 
 #mostre na tela o seu sucessor e o seu antecessor.
 
 n1 = int(input('Digite um numero: '))

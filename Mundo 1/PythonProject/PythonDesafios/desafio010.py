@@ -1,4 +1,4 @@
-#Crie um programa que leia quanto dinheiro uma pessoal
+#Aula 15: Crie um programa que leia quanto dinheiro uma pessoal
 #tem na carteira e mostre quantos Dólares ela pode comprar
 #considere US$ 1,00 = R$ 3,27 (use o dolar do dia)
 
