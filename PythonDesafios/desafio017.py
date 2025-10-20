@@ -13,9 +13,9 @@ print(f'A soma do cateto oposto {oposto} + o adjacente {adjacente} resulta no co
 """
 
 #AQUI VAMOS UTILIZAR IMPORTAÇÃO DE BIBLIOTECA
-import math
+from math import hypot
 co = float(input('Comprimento do cateto oposto: '))
 ca = float(input('Comprimento do cateto adjacente: '))
-hi = math.hypot(co, ca)
+hi = hypot(co, ca)
 
 print(f'A soma do cateto oposto {co} + o adjacente {ca} resulta no comprimento da hipotenusa de {hi:.2f}')
