@@ -8,3 +8,4 @@ numero = float(input('Digite um numero real: '))
 inteiro = trunc(numero)
 
 print(f'A porção inteira de {numero} é {inteiro}')
+print(f'A porção inteira de {numero} é {int(numero)}') #nesse caso n precisa de exportar e biblioteca
