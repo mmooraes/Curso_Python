@@ -7,7 +7,7 @@ frase[9:13] #Nesse caso ele conta do 9 ao 12, contando somente ate o numero ante
 print(f'{frase[9:13]}')
 frase[9:21] #nesse caso não é ideial utilzar numeros maior que a quantidade de caracteres, mas funciona
 print(f'{frase[9:21]}')
-frase[9:21:2] #Nesse caso vou comerçar no  9, para no 21 (o :2 significa que ele vai saltar de 2 em 2)
+frase[9:21:2] #Nesse caso vou comerçar no  9 e para no 21 (o :2 significa que ele vai saltar de 2 em 2)
 print(f'{frase[9:21:2]}')
 frase[:5] #Nesse caso que não há numero antes dos ' : ' ele inicia no 0 e vai te o numero informado depois do ' : '
 print(f'{frase[:5]}') 
