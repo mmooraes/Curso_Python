@@ -8,11 +8,13 @@ CENTENA: 8
 MILHAR: 1
 """
 
-numero = str(input('Digite um numero entre 0 a 9999: '))
+numero = int(input('Digite um numero entre 0 a 9999: '))
+u = numero // 1 % 10
+d = numero // 10 % 10
+c = numero // 100 % 10
+m = numero // 1000 % 10 
 
-print(f'Unidade: {numero[4]}')
-#print(f'Dezena: {}')
-#print(f'Centena: {}')
-#print(f'Milhar: {}')
-
-#DASAFIO AINDA NÃO FINALIZADO
+print(f'Unidade: {u}')
+print(f'Dezena: {d}')
+print(f'Centena: {c}')
+print(f'Milhar: {m}')
