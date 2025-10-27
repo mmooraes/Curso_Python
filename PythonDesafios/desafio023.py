@@ -14,3 +14,5 @@ print(f'Unidade: {numero[4]}')
 #print(f'Dezena: {}')
 #print(f'Centena: {}')
 #print(f'Milhar: {}')
+
+#DASAFIO AINDA NÃO FINALIZADO
