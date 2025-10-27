@@ -11,6 +11,6 @@ nome = str(input('Digite seu nome completo: '))
 
 print(f'{nome.upper()}')
 print(f'{nome.lower()}')
-print(f'O seu nome completo tem {len(nome.strip())} caracteres')
+print(f'O seu nome completo tem {len(nome) - nome.count(' ')} caracteres')
 contagem = nome.split()
 print(f'O primeiro nome tem {len(contagem[0])}')
