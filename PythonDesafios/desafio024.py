@@ -4,7 +4,14 @@ SE ELA COMEÇA OU NÃO COM O NOME SANTO
 """
 
 cidade = str(input('Digite o nome da uma cidade: ')).strip()
-if cidade.find('Santo') == 0:
+
+"""
+#Minha Logica
+if cidade.upper().find('SANTO') == 0:
     print(f'A cidade {cidade}, começa com Santo')
 else:
     print(f'A cidade {cidade}, Não começa com Santo')
+"""
+
+# Loógica do professor
+print(cidade[:5].upper() == 'SANTO')
