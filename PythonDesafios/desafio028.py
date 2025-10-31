@@ -5,13 +5,18 @@ PELO COMPUTADOR
 
 O PROGRAMA DEVERÁ ESCREVER NA TELA SE O USUARIO VENCEU OU PERDEU
 """
-import random
-print ('JOGO DE ADVINHAÇÃO')
 
-n1 = int(input('Qual numero voce acha que o computador pensou?: '))
+from random import choice
+import emoji
+
+print('-=-' *20)
+print('  ' *10, 'JOGO DE ADVINHAÇÃO')
+print('-=-' *20)
+n1 = int(input('De 0 a 5. Qual número estou pensando?'))
+print('---' *20)
 n = [0, 1, 2, 3, 4, 5]
-n2 = random.choice(n)
+n2 = choice(n)
 if n2 == n1:
-    print('Parabens! Voce acertou')
+    print(emoji.emojize(':green_circle: - Parabens! Voce acertou!'))
 else:
-    print(f'Voce errou! o meu número era {n2}')
+    print(emoji.emojize(f':red_circle: Voce errou! o meu número era {n2}'))
