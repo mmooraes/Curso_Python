@@ -19,7 +19,7 @@ else:
 #LOGICA DO PROFESSOR - Utilizou a estrutura somente com IF (condição simples)
 km = float(input('Digite a velocidade do veiculo: '))
 if km > 80:
-    print('MULTADO! Você excedu o limite permitido que é de 80Km/h')
+    print('MULTADO! Você excedeu o limite permitido que é de 80Km/h')
     multa = (km - 80) * 7
     print(f'Você deve pagar uma multa de R${multa:.2f}!')
 print('Tenha um bom dia! Dirija com segurança!')
