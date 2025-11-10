@@ -2,10 +2,13 @@
 DESENVOLVA UM PROGRAMA QUE LEIA O COMPRIMENTO DE TRES RETAS E DIGA AO USUARIO
 SE ELAS PODEM OU NAO FORMAR UM TRIANGULO
 """
-print('CALCULANDO UM TRIANGULO')
-a = int(input('Digite o valor A: '))
-b = int(input('Digite o valor B: '))
-c = int(input('Digite o valor C: '))
+
+print('-=' * 20)
+print(' ' * 8, 'CALCULANDO UM TRIANGULO')
+print('-=' * 20)
+a = float(input('Digite o valor A: '))
+b = float(input('Digite o valor B: '))
+c = float(input('Digite o valor C: '))
 
 if (a + b > c) and (a + c > b) and (b + c > a):
     print(f'Parabens! Voce tem um triangulo')
