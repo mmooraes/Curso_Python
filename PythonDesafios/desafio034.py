@@ -16,6 +16,9 @@ if salario > 1.250:
 else:
     print(f'Voce recebeu 15% de aumento: {aumentdois:.3f}')"""
 
+cores = {'limpa': '\033[m',
+        'amarelo': '\033[33m',
+        'verde': '\033[1;32m'}
 
 # Lógica do professor
 salario = float(input('Digite atual do salario R$ ').replace(",", "."))
@@ -23,4 +26,4 @@ if salario <= 1250:
     novo = salario + (salario * 15 / 100)
 else:
     novo = salario + (salario * 10 / 100)
-print(f'Quem ganha R${salario:.2f} passa a ganhar R$ {novo:.2f} agora')
+print(f'Quem ganha {cores['amarelo']}R${salario:.2f}{cores['limpa']} passa a ganhar {cores['verde']}R${novo:.2f}{cores['limpa']} agora')
