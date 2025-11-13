@@ -17,7 +17,7 @@ else:
     print(f'Voce recebeu 15% de aumento: {aumentdois:.3f}')"""
 
 
-# Lógica do professro
+# Lógica do professor
 salario = float(input('Digite atual do salario R$ ').replace(",", "."))
 if salario <= 1250:
     novo = salario + (salario * 15 / 100)
