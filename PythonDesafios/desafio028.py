@@ -10,13 +10,12 @@ from random import randint
 from time import sleep
 import emoji
 
-
 print('-=-' *20)
 print('  ' *10, 'JOGO DE ADVINHAÇÃO')
 print('-=-' *20)
 n1 = int(input('De 0 a 5. Qual número estou pensando? '))
 print('---' *20)
-n = randint (0, 5) #Faz o computador pensar em um numero
+n = randint (0, 5) #Faz o computador pensar em um numero dentro do ()
 print('PROCESSANDO...')
 sleep(3) # da um tempo entre a resposta, dando a sensação que o computador esta analisando 
 if n == n1:
